@@ -1,43 +1,332 @@
-<!DOCTYPE html>
-
-<head>
-    <title> HW20 </title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<!DOCTYPE html> 
+<head> 
+    <title> HW20 </title>     
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"> 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 1016px)">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="java/java.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>     
+    <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css"> 
+</head> 
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+        <div class="container-fluid"> 
+            <img src="images/desktoplogo.png"> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler12" aria-controls="" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
+            </button>             
+            <div class="collapse ms-4 mt-auto navbar-collapse" id="navbarToggler12"> 
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                    <li class="nav-item"><a class="active nav-link" href="#"><h5>Work</h5></a> 
+                    </li>                     
+                    <li class="nav-item"><a class="nav-link spacing" href="#"><h5>About</h5></a> 
+                    </li>                     
+                    <li class="nav-item"><a class="nav-link" href="#"><h5>Contact</h5></a> 
+                    </li>
+                </ul>                 
+            </div>             
+        </div>         
+    </nav>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <hr class="spacer">
+            <div class="headPadding">
+                <h1 class="headPadding">URC Redesign</h1>
             </div>
-          </div>
+            <hr class="spacer">
         </div>
-      </nav>
-
-      <section>
-
-      </section>
-
-      <section>
-
-      </section>
-      
+        <div class="row justify-content-center">
+            <div class="col-md-8 align-self-center herostyle">
+                <div class="herostyle row justify-content-center">
+                    <div class="col-md-6 align-self-center">
+                        <div class="heroimg">
+                            <img class="img-fluid" src="images/desktopURCredesignhomepage.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 align-self-center">
+                        <div class="heroimg">
+                            <img class="img-fluid" src="images/desktopurc.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <hr class="spacertwo">
+                <h1>Overview</h1>
+                <p>In this case study, me and my team looked at redesigning the Utah Rivers Council (URC) website. URC is a nonprofit for water conservation and protecting Utah's waterways. We found the website contained several issues with informational hierarchy, meeting accessibility requirements, meeting user needs or expectations, and overall visual consistency. We were tasked with completing this in a 2.5 week timeline.</p>
+            </div>
+            <div class="col-md-3">
+                <div class="headPadding centered problemColor">
+                    <div>
+                        <h5>The Problem</h5>
+                    </div>
+                    <div>
+                        <p>URC's information hierarchy does not meet user needs, content labeling is poor, and they do not meet WCAG contrast requirements.</p>
+                    </div>                     
+                </div>
+                <div class="headPadding centered solutionColor">
+                    <div>
+                        <h5>The Solution</h5>
+                    </div>
+                    <div>
+                        <p>Redesign information hierarchy based off of user needs, relabel content with cardsorts, and revise color choices to meet WCAG.</p>
+                    </div>                     
+                </div>
+            </div>
+        </div>
+        <hr class="spacertwo">
+        <div class="row justify-content-center">
+            <div class="headPadding">
+                <h1 class="headPadding">Project Details</h1>
+            </div>
+            <div class="headPadding detailColor col-md-3">
+                <div class="order">
+                    <div>
+                        <img class="spacing" src="images/teamicon.svg">
+                    </div>
+                    <div>
+                        <div>
+                            <h5>Team</h5>
+                        </div>
+                        <div>
+                            <p>My team consisted of three people who were a hybrid of research and design roles.</p>
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>
+            <div class="headPadding detailColor col-md-4">
+                <div class="order">
+                    <div>
+                        <img class="spacing" src="images/rolesicon.svg">
+                    </div>
+                    <div>
+                        <div>
+                            <h5>Role</h5>
+                        </div>
+                        <div>
+                            <p>My roles in this project were team lead, research, and design. I delegated tasks for the team.</p>
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>
+            <div class="headPadding detailColor col-md-3">
+                <div class="order">
+                    <div>
+                        <img class="spacing" src="images/timeicon.svg">
+                    </div>
+                    <div>
+                        <div>
+                            <h5>Time</h5>
+                        </div>
+                        <div>
+                            <p>We had 2.5 weeks to render three high-fidelity screens.</p>
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>
+            <div class="col-md-8">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="headPadding">
+                <h1 class="headPadding">Process</h1>
+            </div>
+        </div>
+        <div class="row timeline justify-content-center sticky-top">
+            <div class="col-2 d-flex justify-content-center timelineEntry">
+                <a href="#linkResearch" class="justify-content-center timelineEntry"> <div class="text-center timelineBadge">
+</div> <div class="text-center">
+                        <h6>Research</h6>
+                    </div> </a>
+            </div>
+            <div class="col-2 d-flex justify-content-center timelineEntry">
+                <a href="#linkDefinition" class="justify-content-center timelineEntry"> <div class="text-center timelineBadge">
+</div> <div class="text-center">
+                        <h6>Definition</h6>
+                    </div> </a>
+            </div>
+            <div class="col-2 d-flex justify-content-center timelineEntry">
+                <a href="#linkIdeation" class="justify-content-center timelineEntry"> <div class="text-center timelineBadge">
+</div> <div class="text-center">
+                        <h6>Ideation</h6>
+                    </div> </a>
+            </div>
+            <div class="col-2 d-flex justify-content-center timelineEntry">
+                <a href="#linkTesting" class="justify-content-center timelineEntry"> <div class="text-center timelineBadge">
+</div> <div class="text-center">
+                        <h6>Testing</h6>
+                    </div> </a>
+            </div>
+        </div>
+        <hr class="spacer">
+        <a class="anchor" id="linkResearch"></a>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <img class="img-fluid imageCard" src="images/R1.png"> 
+            </div>
+            <div class="col-md-4">
+                <h1>Research</h1>
+                <p>Our first step to designing was to figure out what our users need, and what the website fails to give.
+To do this, we set up:                                         
+                <p>A proto-persona - to gauge userbase and a testable path.                                          
+                <p> User interviews - to see what users were needing in relation to water conservation.                                          
+                <p>Usability testing - to test how users were getting around the website. <p>Heuristic evaluations - to find contrast violations and rule out quick issues.</p>  
+            </div>
+        </div>
+        <hr class="spacertwo">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <img class="img-fluid imageCard" src="images/R2.png"> 
+            </div>
+            <div class="col-md-4">
+                <h5>We found:</h5>
+                <p>Users expected to find information on water conservation and the non-profit, and wanted to act (volunteer) over donate.                                          
+                <p> Usability testing: <br>Tiered dropdowns were difficult to use, and labelling was inconsistent to user expectation. Media page content was presented poorly and was overwhelming or misunderstood.                                          
+                <p> Evaluations: <br> We found that the blue headers on the website did not meet WCAG for contrast, and several aspects of the site were visually inconsistent. <p>User Persona: <br>We developed a user persona from the user interview data to inform how to structure content hierarchy later on.</p>  
+            </div>
+        </div>
+        <hr class="spacer">
+        <a class="anchor" id="linkDefinition"></a>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h1>Definition</h1>
+                <p>From all of the data collected prior, we focused in on a handful of key issues to iterate upon: 
+                <p>
+Navigation issues that consistently interrupted the user's flow, as this created a negative experience on the website. Poor dropdown labels, navigation bar layout, and overwhelming pages were the biggest culprits. 
+                <p>Informational hierarchy for both homepage and navigation, to meet users at their needs (wanting water conservation info, and to make actionable changes like volunteering) from the website.  
+                <p>Negating legal risks for the nonprofit by addressing the contrast requirements necessary for the website.</p>
+                <h5>Cardsorting:</h5>
+                <p> We also aimed to define new labeling and content structures with a card sorting group of 5, done between myself and another researcher on the team. <p>
+Some things changed, based on the average of our results; content was shuffled around into new tabs and tabs like 'productions' were renamed to 'media'. A sitemap was redefined for the navigation.</p> 
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid imageCard" src="images/D1.png"> 
+            </div>
+        </div>
+        <hr class="spacer">
+        <a class="anchor" id="linkIdeation"></a>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <img class="img-fluid imageCard" src="images/I1.png"> 
+            </div>
+            <div class="col-md-4">
+                <h1>Ideation & Prototyping</h1>
+                <p>We sketched ideas for new page layouts, navigation bar setup, and paid special attention to hierarchy in regards to user needs in this stage, which were highlighted in our user persona; users wanted information on conservation and URC, as well as to take action (volunteer).</p>
+            </div>
+        </div>
+        <hr class="spacer">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <img class="img-fluid imageCard" src="images/I2.png"> 
+            </div>
+            <div class="col-md-4">
+                <h5>Prototyping:</h5>
+                <p>We then developed a greyscale prototype design from pieces of the sketches that would help users. <p>
+We removed the tiered dropdown layout, made URC info and volunteering accessible from the homepage, and broke up the media page contents, among others.</p> 
+            </div>
+        </div>
+        <hr class="spacer">
+        <a class="anchor" id="linkTesting"></a>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h1>Testing</h1>
+                <p>We then tested the greyscale. Research duties were delegated to myself and another researcher within the team to test five users in total; three on mobile, two on desktop, as we assumed the tighter navigation on mobile would need more attention / have more issue. This was a navigational test to grasp the basic function of the site. 
+                <p>What validations we found is that the new labeling for the media tab was working- users found All Media immediately; and users found the tabbing feature in it to be natural, meaning both our cardsort and the overhaul of the All Media page met success criteria. <p>What issues we encountered were scroll lengths on mobile, lack of navigation home on mobile, and unclear donate buttons on desktop.</p> 
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid imageCard" src="images/T1.png"> 
+            </div>
+        </div>
+        <hr class="spacer">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="flex">
+                    <div>
+                        <img class="img-fluid imageCard" src="images/T2.png">
+                    </div>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div>
+                        <img class="img-fluid imageCard" src="images/T3.png">
+                    </div>
+                </div>
+                <div class="sucker">
+                    <img class="sucker imageCard" src="images/T45.png">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>We went back to our prototype and iterated upon it, starting the cycle of testing. In the meantime, another member of the team worked on building basic site styling conventions. <p> We brainstormed ideas, and implemented several:We scaled down elements to reduce scroll as well as to improve content recognition on the All Media page, improved clarity for several elements on the desktop page by making them follow the new button/color conventions, and created navigational freedom for mobile users by adding a home button in the navigation, among other small fixes.</p>  
+            </div>
+        </div>
+        <hr class="spacer">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h5>Mid-Fidelity (Color) Testing:</h5> 
+                <p>We then tested the new colored prototype. Research duties were delegated to myself and the same researcher, while our other member started work on a style guide.               
+                <p> We tested six users in total; three on mobile, three on desktop. This was a navigational test, but with color and some styling applied, also included several questions to gauge the user's recognition or understanding of the pages.              
+                <p> Some validations we found: the mobile testers used the new navigational freedom, desktop pages and buttons were now recognized, and users felt the site looked trustworthy. <p> Some issues we encountered: Desktop navigation did not meet the same navigational freedoms as mobile, hero banner buttons were accidentally tapped when using mobile, and people were unsure of where the donate page's buttons took them.  </p>  
+            </div>
+            <div class="col-md-4">
+                <div class="flex">
+                    <div>
+                        <img class="img-fluid imageCard" src="images/T6.png">
+                    </div>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div>
+                        <img class="img-fluid imageCard" src="images/T45.png">
+                    </div>
+                </div>
+                <div class="sucker">
+                    <img class="sucker imageCard" src="images/T7.png">
+                </div>
+            </div>
+            <hr class="spacer">
+            <div class="col-md-8">
+                <h5>High-Fidelity:</h5> 
+                <p>We then pushed our design into high fidelity. Throughout the design, we had been creating and applying a new color palette for the website, taking into account colors that contrast well to meet WCAG AAA standards, and being mindful of the logo's color palette for consistent branding. We finalized this into a style guide and applied it to our prototype. <p>We also brainstormed new fixes to previous testing problems and implemented: matched desktop and mobile home navigation, scaled the mobile buttons down to minimize the chance of accidental tapping, and clarified the donate page's button with extra copywriting. </p>  
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 align-self-center herostyle">
+                    <div class="herostyle row justify-content-center">
+                        <div class="col-md-6 align-self-center">
+                            <div class="heroimg">
+                                <img class="img-fluid" src="images/desktopURCredesignhomepage.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6 align-self-center">
+                            <div class="heroimg">
+                                <img class="img-fluid" src="images/desktopurc.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="spacer">
+                <div class="col-md-8">
+                    <h2>Conclusion:</h2> 
+                    <p>Overall, we solved:           
+                    <p> Navigation issues - by changing terminology & tiered dropdown layout.          
+                    <p>Color contrast - by increasing contrasts between text and background to meet WCAG requirements.          
+                    <p>Informational hierarchy - by prioritizing necessary information to users based on user feedback.          
+                    <p>Content chunking - by reformatting the way content was displayed on several pages to reduce cognitive load or scrolling. <p>Our next steps would be testing the High-fidelity prototype until ready for developer handoff. </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="spacer">
+    <div class="footerBkg centered">
+        <div class="col-md-4">
+            <div class="centered order">
+                <div>
+                    <img class="spacing" src="images/desktoplinkediniconfooter.png">
+                </div>
+                <div class="footerColor">
+                    <p>Find me on LinkedIn!</p>
+                </div>                 
+            </div>             
+            <p class="footerColor centered">Copyright 2024.</p> 
+        </div>
+    </div>
 </body>
